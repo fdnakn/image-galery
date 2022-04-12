@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css  ">
+</head>
+<body>
+    <div class="product">
+        <div class="product-small-img">
+            <img src="https://cdn.cimri.io/image/1000x1000/appleiphonesgbnmpakllceptelefonu_22788755.jpg" onclick="myfunction(this)">
+            <img src="https://cdn.cimri.io/image/1000x1000/apple-iphone-6s-plus-16-gb-55-inc-12-mp-akilli-cep-telefonu-gri_11798763.jpg" onclick="myfunction(this)">
+            <img src="https://cdn.cimri.io/image/1000x1000/appleiphonegbnmpakllceptelefonu_89185049.jpg" onclick="myfunction(this)">
+            <img src="https://cdn.cimri.io/pictures/article/original/29/29460.jpg" onclick="myfunction(this)">
+            <img src="https://cdn.cimri.io/image/1000x1000/apple-iphone-x-64-gb-58-inc-12-mp-akilli-cep-telefonu_90812389.jpg" onclick="myfunction(this)">
+        </div>
+        <div class="img-container">
+            <img class="container" src="https://cdn.cimri.io/image/1000x1000/apple-iphone-x-64-gb-58-inc-12-mp-akilli-cep-telefonu_90812389.jpg" alt="">
+        </div>
+    </div>
+
+
+    <script>
+        function myfunction(smallimg)
+        {
+           let fullimg = document.getElementById("container");
+           fullimg.src = smallimg.src;
+        }
+    </script>
+
+    
+</body>
+</html>
